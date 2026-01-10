@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header
@@ -58,7 +65,7 @@
       class="max-w-[100%] border-white border-solid bg-black border-t-[1px]"
     >
       <div class="max-w-[1000px] mx-auto py-[40px] sm:py-[80px]">
-        <h1 class="text-white sm:text-left text-center text-3xl">
+        <h1 class="text-white sm:text-left font-bold text-center text-3xl">
           Trending Now
         </h1>
         <div
@@ -107,10 +114,195 @@
         </div>
       </div>
     </section>
-    <section class="max-w-[100%]">
-      <div class="max-w-[1000px] mx-auto py-[80px]">
-        <h1>More Reasons to Join</h1>
+    <section class="max-w-[100%] bg-black">
+      <div class="max-w-[1000px] mx-auto py-[50px] text-white">
+        <h1 class="sm:text-3xl text-2xl font-bold sm:text-left text-center">
+          More Reasons to Join
+        </h1>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[30px] mt-[40px] justify-items-center justify-center align-center"
+        >
+          <div
+            class="w-[250px] h-[300px] text-white bg-[#1d162b] p-[20px] rounded-[10px] relative"
+          >
+            <h1 class="text-2xl font-bold mb-[20px]">Enjoy on your TV</h1>
+            <p class="text-[16px] text-[#bbbbc3] mb-[10px]">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+            <span class="text-[20px] absolute bottom-2 right-3"
+              ><i class="fa-solid fa-tv text-5xl text-[#9d31b0]"></i
+            ></span>
+          </div>
+          <div
+            class="w-[250px] h-[300px] text-white bg-[#1d162b] p-[20px] rounded-[10px] relative"
+          >
+            <h1 class="text-2xl font-bold mb-[20px]">
+              Download your shows to watch offline
+            </h1>
+            <p class="text-[16px] text-[#bbbbc3] mb-[10px]">
+              Save your favorites easily and always have something to watch.
+            </p>
+            <span class="text-[20px] absolute bottom-2 right-3"
+              ><i class="fa-solid fa-circle-down text-5xl text-[#9d31b0]"></i
+            ></span>
+          </div>
+          <div
+            class="w-[250px] h-[300px] text-white bg-[#1d162b] p-[20px] rounded-[10px] relative"
+          >
+            <h1 class="text-2xl font-bold mb-[20px]">Watch everywhere</h1>
+            <p class="text-[16px] text-[#bbbbc3] mb-[10px]">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+            <span class="text-[20px] absolute bottom-2 right-3"
+              ><i class="fa-solid fa-eye text-5xl text-[#9d31b0]"></i
+            ></span>
+          </div>
+          <div
+            class="w-[250px] h-[300px] text-white bg-[#1d162b] p-[20px] rounded-[10px] relative"
+          >
+            <h1 class="text-2xl font-bold mb-[20px]">
+              Create profiles for kids
+            </h1>
+            <p class="text-[16px] text-[#bbbbc3] mb-[20px]">
+              Send kids on adventures with their favorite characters in a space
+              made just for them — free with your membership.
+            </p>
+            <span class="text-[20px] absolute bottom-2 right-3"
+              ><i class="fa-solid fa-users text-5xl text-[#9d31b0]"></i
+            ></span>
+          </div>
+        </div>
       </div>
     </section>
+    <section class="max-w-[100%] bg-black">
+      <div class="max-w-[1000px] mx-auto py-[50px] px-[20px] sm:px-0 text-white">
+        <h1 class="sm:text-3xl text-2xl mb-[20px] font-bold text-center sm:text-left">Frequently Asked Questions</h1>
+        <div class="flex flex-col gap-[20px]">
+          <div class="flex flex-col question">
+            <div class="flex justify-between items-center px-6 bg-[#2d2d2d]">
+              <h1 class="text-[20px]">What is Netflix?</h1>
+              <button class="text-[50px]">+</button>
+            </div>
+            <div
+              class="px-6 bg-[#2d2d2d] py-[20px] border-t-[4px] border-black hidden"
+            >
+              <p class="text-[20px] mb-[20px]">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <p class="text-[20px]">
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added every week!
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col question">
+            <div class="flex justify-between items-center px-6 bg-[#2d2d2d]">
+              <h1 class="text-[20px]">What is Netflix?</h1>
+              <button class="text-[50px]">+</button>
+            </div>
+            <div
+              class="px-6 bg-[#2d2d2d] py-[20px] border-t-[4px] border-black hidden"
+            >
+              <p class="text-[20px] mb-[20px]">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <p class="text-[20px]">
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added every week!
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col question">
+            <div class="flex justify-between items-center px-6 bg-[#2d2d2d]">
+              <h1 class="text-[20px]">What is Netflix?</h1>
+              <button class="text-[50px]">+</button>
+            </div>
+            <div
+              class="px-6 bg-[#2d2d2d] py-[20px] border-t-[4px] border-black hidden"
+            >
+              <p class="text-[20px] mb-[20px]">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <p class="text-[20px]">
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added every week!
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col question">
+            <div class="flex justify-between items-center px-6 bg-[#2d2d2d]">
+              <h1 class="text-[20px]">What is Netflix?</h1>
+              <button class="text-[50px]">+</button>
+            </div>
+            <div
+              class="px-6 bg-[#2d2d2d] py-[20px] border-t-[4px] border-black hidden"
+            >
+              <p class="text-[20px] mb-[20px]">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <p class="text-[20px]">
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added every week!
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col question">
+            <div class="flex justify-between items-center px-6 bg-[#2d2d2d]">
+              <h1 class="text-[20px]">What is Netflix?</h1>
+              <button class="text-[50px]">+</button>
+            </div>
+            <div
+              class="px-6 bg-[#2d2d2d] py-[20px] border-t-[4px] border-black hidden"
+            >
+              <p class="text-[20px] mb-[20px]">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <p class="text-[20px]">
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added every week!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const questions = document.querySelectorAll(".question");
+      questions.forEach((q) => {
+        q.addEventListener("click", () => {
+          questions.forEach((otherQ) => {
+            if (otherQ !== q) {
+              otherQ.children[1].classList.remove("block");
+              otherQ.children[1].classList.add("hidden");
+            }
+          });
+          q.children[1].classList.toggle("block");
+          q.children[1].classList.toggle("hidden");
+        });
+      });
+    </script>
   </body>
 </html>
