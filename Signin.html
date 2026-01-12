@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signin page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main
+      class="w-full h-[130vh] bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/e393bb3f-261f-43d1-99bb-16a157885615/web/NP-en-20260105-TRIFECTA-perspective_5147f7ea-8f0b-46f2-a2bb-48c6b27eccc9_large.jpg')] bg-cover bg-no-repeat"
+    >
+      <div class="w-full h-[130vh] bg-[rgba(0,0,0,0.5)]">
+        <div class="w-[1000px] mx-auto py-4">
+          <span class="text-5xl font-bold text-red-700">NETFLIX</span>
+
+          <div
+            class="mx-auto w-[480px] h-[700px] rounded bg-black/65 text-white p-[50px] mt-[50px]"
+          >
+            <h1 class="text-3xl font-bold pb-[20px]">Sign In</h1>
+            <form class="flex flex-col gap-3">
+              <input
+                class="px-[20px] py-[14px] border-[1px] text-[18px] rounded my-[10px] border-white"
+                type="text"
+                placeholder="Email or mobile number"
+              />
+              <input
+                type="text"
+                class="px-[20px] py-[14px] border-[1px] rounded my-[10px] text-[18px] border-white"
+                placeholder="Password"
+              />
+              <input
+                type="submit"
+                class="px-[20px] text-[18px] py-[8px] rounded my-[10px] bg-red-600"
+                value="Sign In"
+              />
+              <span class="text-center">OR</span>
+              <input
+                type="submit"
+                class="px-[20px] text-[18px] py-[8px] rounded my-[10px] bg-[#44413e]"
+                value="Use a sign In code"
+              />
+              <a href="#" class="text-center underline text-[18px]"
+                >Forget Password</a
+              >
+            </form>
+            <p class="mt-[20px] text-[20px] flex items-center gap-4">
+              <input type="checkbox" class="w-[18px] h-[18px]" /> Remember me
+            </p>
+            <p class="mt-[10px] text-[#cccc] text-[16px]">
+              New to Netflix?
+              <a href="#" class="text-white font-bold">Sign up Now</a>
+            </p>
+            <p class="mt-[12px] text-[#cccc] text-[12px]">
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot.
+            </p>
+            <a href="#" class="text-[14px] text-blue-300 mt-[10px]"
+              >learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="w-full h-[250px] bg-[#161616] text-[#cccc]">
+      <div class="w-[1000px] mx-auto py-[50px]">
+        <p class="text-[18px] pb-[20px]">
+          Question? <a href="#" class="underline">Contact us</a>
+        </p>
+        <div class="grid grid-cols-4 gap-4">
+          <div class="flex flex-col gap-3">
+            <a href="#" class="underline">Faq</a
+            ><a class="underline" href="#">Cookie preference</a>
+          </div>
+          <div class="flex flex-col gap-3">
+            <a href="#" class="underline">Help center</a
+            ><a class="underline" href="#">Corporate information</a>
+          </div>
+          <div class="flex flex-col gap-3">
+            <a href="#" class="underline">Term of use</a>
+          </div>
+          <div class="flex flex-col gap-3">
+            <a href="#" class="underline">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
